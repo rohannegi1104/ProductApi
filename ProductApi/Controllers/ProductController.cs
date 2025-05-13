@@ -48,25 +48,25 @@ namespace ProductApi.Controllers
         }
         //Add more method
  
-        [HttpGet("add")]
-        public IActionResult Add(double number1, double number2)
-        {
-            return Ok(number1 + number2);
-        }
+        // [HttpGet("add")]
+        // public IActionResult Add(double number1, double number2)
+        // {
+        //     return Ok(number1 + number2);
+        // }
  
-        [HttpGet("subtract")]
-        public IActionResult Subtract(double number1, double number2)
-        {
-            return Ok(number1 - number2);
-        }
+        // [HttpGet("subtract")]
+        // public IActionResult Subtract(double number1, double number2)
+        // {
+        //     return Ok(number1 - number2);
+        // }
  
-        [HttpGet("divide")]
-        public IActionResult Divide(double number1, double number2)
-        {
-            if (number2 == 0)
-                return BadRequest("Cannot divide by zero.");
+        // [HttpGet("divide")]
+        // public IActionResult Divide(double number1, double number2)
+        // {
+        //     if (number2 == 0)
+        //         return BadRequest("Cannot divide by zero.");
  
-            return Ok(number1 / number2);
-        }
+        //     return Ok(number1 / number2);
+        // }
     }
 }
