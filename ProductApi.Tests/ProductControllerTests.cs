@@ -107,17 +107,11 @@ namespace ProductApi.Tests
         [Fact]
 
         public void Add_Product_WithZeroPrice_ShouldBeAccepted()
-
         {
-
             var product = new Product { Name = "FreeItem", Price = 0 };
-
             _controller.Add(product);
-
             var result = _controller.Get(product.Id) as OkObjectResult;
-
             Assert.NotNull(result);
-
             Assert.Equal(0, ((Product)result.Value!).Price);
 
         }
@@ -187,9 +181,76 @@ namespace ProductApi.Tests
             Assert.Contains(list!, p => p.Name == "Unique");
 
         }
- 
- 
+                //Add more test cases 
 
+        [Fact]
+
+        public void Add_ReturnsCorrectResult()
+
+        {
+
+            // Act
+
+            var result = _controller.Add(5, 3) as OkObjectResult;
+ 
+            // Assert
+
+            Assert.NotNull(result);
+
+            Assert.Equal(200, result.StatusCode);
+
+            Assert.Equal(8.0, result.Value);
+
+        }
+ 
+        [Fact]
+
+        public void Subtract_ReturnsCorrectResult()
+
+        {
+
+            var result = _controller.Subtract(10, 4) as OkObjectResult;
+ 
+            Assert.NotNull(result);
+
+            Assert.Equal(200, result.StatusCode);
+
+            Assert.Equal(6.0, result.Value);
+
+        }
+ 
+        [Fact]
+
+        public void Divide_ReturnsCorrectResult()
+
+        {
+
+            var result = _controller.Divide(20, 5) as OkObjectResult;
+ 
+            Assert.NotNull(result);
+
+            Assert.Equal(200, result.StatusCode);
+
+            Assert.Equal(4.0, result.Value);
+
+        }
+ 
+        [Fact]
+
+        public void Divide_ByZero_ReturnsBadRequest()
+
+        {
+
+            var result = _controller.Divide(10, 0) as BadRequestObjectResult;
+ 
+            Assert.NotNull(result);
+
+            Assert.Equal(400, result.StatusCode);
+
+            Assert.Equal("Cannot divide by zero.", result.Value);
+
+        }
+ 
         // Add 10 more tests
         [Fact] 
         public void Add_Product_SetsIdCorrectly() { var p = new Product { Name = "A", Price = 1 }; _controller.Add(p); Assert.Equal(1, p.Id); }
