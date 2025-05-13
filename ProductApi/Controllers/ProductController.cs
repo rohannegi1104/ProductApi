@@ -46,7 +46,8 @@ namespace ProductApi.Controllers
             _service.Delete(id);
             return NoContent();
         }
-        Add more method
+       
+        // Add more method
  
         [HttpGet("add")]
         public IActionResult Add(double number1, double number2)
