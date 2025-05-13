@@ -102,6 +102,94 @@ namespace ProductApi.Tests
             Assert.Equal(2, product?.Id);
         }
 
+        //Add 5 More Test Cases
+
+        [Fact]
+
+        public void Add_Product_WithZeroPrice_ShouldBeAccepted()
+
+        {
+
+            var product = new Product { Name = "FreeItem", Price = 0 };
+
+            _controller.Add(product);
+
+            var result = _controller.Get(product.Id) as OkObjectResult;
+
+            Assert.NotNull(result);
+
+            Assert.Equal(0, ((Product)result.Value!).Price);
+
+        }
+ 
+        [Fact]
+
+        public void Add_Product_WithLongName_ShouldBeAccepted()
+
+        {
+
+            var longName = new string('A', 1000);
+
+            var product = new Product { Name = longName, Price = 10 };
+
+            _controller.Add(product);
+
+            var result = _controller.Get(product.Id) as OkObjectResult;
+
+            Assert.Equal(longName, ((Product)result?.Value!).Name);
+
+        }
+ 
+        [Fact]
+
+        public void GetAll_WhenEmpty_ReturnsIEnumerable()
+
+        {
+
+            var result = _controller.GetAll() as OkObjectResult;
+
+            Assert.IsAssignableFrom<IEnumerable<Product>>(result?.Value);
+
+        }
+ 
+        [Fact]
+
+        public void Delete_ThenUpdate_ReturnsNoContentButNoChange()
+
+        {
+
+            var product = new Product { Name = "Temp", Price = 5 };
+
+            _controller.Add(product);
+
+            _controller.Delete(product.Id);
+
+            var updateResult = _controller.Update(product.Id, product);
+
+            Assert.IsType<NoContentResult>(updateResult);
+
+        }
+ 
+        [Fact]
+
+        public void Add_ThenGetAll_ShouldReturnCorrectProduct()
+
+        {
+
+            var product = new Product { Name = "Unique", Price = 11 };
+
+            _controller.Add(product);
+
+            var result = _controller.GetAll() as OkObjectResult;
+
+            var list = result?.Value as IEnumerable<Product>;
+
+            Assert.Contains(list!, p => p.Name == "Unique");
+
+        }
+ 
+ 
+
         // Add 10 more tests
         [Fact] 
         public void Add_Product_SetsIdCorrectly() { var p = new Product { Name = "A", Price = 1 }; _controller.Add(p); Assert.Equal(1, p.Id); }
