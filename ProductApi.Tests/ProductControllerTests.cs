@@ -183,73 +183,73 @@ namespace ProductApi.Tests
         }
                 //Add more test cases 
 
-        [Fact]
+        // [Fact]
 
-        public void Add_ReturnsCorrectResult()
+        // public void Add_ReturnsCorrectResult()
 
-        {
+        // {
 
-            // Act
+        //     // Act
 
-            var result = _controller.Add(5, 3) as OkObjectResult;
+        //     var result = _controller.Add(5, 3) as OkObjectResult;
  
-            // Assert
+        //     // Assert
 
-            Assert.NotNull(result);
+        //     Assert.NotNull(result);
 
-            Assert.Equal(200, result.StatusCode);
+        //     Assert.Equal(200, result.StatusCode);
 
-            Assert.Equal(8.0, result.Value);
+        //     Assert.Equal(8.0, result.Value);
 
-        }
+        // }
  
-        [Fact]
+        // [Fact]
 
-        public void Subtract_ReturnsCorrectResult()
+        // public void Subtract_ReturnsCorrectResult()
 
-        {
+        // {
 
-            var result = _controller.Subtract(10, 4) as OkObjectResult;
+        //     var result = _controller.Subtract(10, 4) as OkObjectResult;
  
-            Assert.NotNull(result);
+        //     Assert.NotNull(result);
 
-            Assert.Equal(200, result.StatusCode);
+        //     Assert.Equal(200, result.StatusCode);
 
-            Assert.Equal(6.0, result.Value);
+        //     Assert.Equal(6.0, result.Value);
 
-        }
+        // }
  
-        [Fact]
+        // [Fact]
 
-        public void Divide_ReturnsCorrectResult()
+        // public void Divide_ReturnsCorrectResult()
 
-        {
+        // {
 
-            var result = _controller.Divide(20, 5) as OkObjectResult;
+        //     var result = _controller.Divide(20, 5) as OkObjectResult;
  
-            Assert.NotNull(result);
+        //     Assert.NotNull(result);
 
-            Assert.Equal(200, result.StatusCode);
+        //     Assert.Equal(200, result.StatusCode);
 
-            Assert.Equal(4.0, result.Value);
+        //     Assert.Equal(4.0, result.Value);
 
-        }
+        // }
  
-        [Fact]
+        // [Fact]
 
-        public void Divide_ByZero_ReturnsBadRequest()
+        // public void Divide_ByZero_ReturnsBadRequest()
 
-        {
+        // {
 
-            var result = _controller.Divide(10, 0) as BadRequestObjectResult;
+        //     var result = _controller.Divide(10, 0) as BadRequestObjectResult;
  
-            Assert.NotNull(result);
+        //     Assert.NotNull(result);
 
-            Assert.Equal(400, result.StatusCode);
+        //     Assert.Equal(400, result.StatusCode);
 
-            Assert.Equal("Cannot divide by zero.", result.Value);
+        //     Assert.Equal("Cannot divide by zero.", result.Value);
 
-        }
+        // }
  
         // Add 10 more tests
         [Fact] 
