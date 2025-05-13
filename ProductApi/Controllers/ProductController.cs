@@ -25,28 +25,28 @@ namespace ProductApi.Controllers
             return product == null ? NotFound() : Ok(product);
         }
 
-        // [HttpPost]
-        // public IActionResult Add(Product product)
-        // {
-        //     _service.Add(product);
-        //     return CreatedAtAction(nameof(Get), new { id = product.Id }, product);
-        // }
+        [HttpPost]
+        public IActionResult Add(Product product)
+        {
+            _service.Add(product);
+            return CreatedAtAction(nameof(Get), new { id = product.Id }, product);
+        }
 
-        // [HttpPut("{id}")]
-        // public IActionResult Update(int id, Product product)
-        // {
-        //     if (id != product.Id) return BadRequest();
-        //     _service.Update(product);
-        //     return NoContent();
-        // }
+        [HttpPut("{id}")]
+        public IActionResult Update(int id, Product product)
+        {
+            if (id != product.Id) return BadRequest();
+            _service.Update(product);
+            return NoContent();
+        }
 
-        // [HttpDelete("{id}")]
-        // public IActionResult Delete(int id)
-        // {
-        //     _service.Delete(id);
-        //     return NoContent();
-        // }
-        //Add more method
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            _service.Delete(id);
+            return NoContent();
+        }
+        Add more method
  
         [HttpGet("add")]
         public IActionResult Add(double number1, double number2)
