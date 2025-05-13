@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\ProductApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E44A4C2-0125-46B7-A135-835AC8E1607C}|ProductApi.Tests\\ProductApi.Tests.csproj|c:\\users\\administrator\\productapi\\productapi.tests\\productcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E44A4C2-0125-46B7-A135-835AC8E1607C}|ProductApi.Tests\\ProductApi.Tests.csproj|solutionrelative:productapi.tests\\productcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E44A4C2-0125-46B7-A135-835AC8E1607C}|ProductApi.Tests\\ProductApi.Tests.csproj|c:\\users\\administrator\\productapi\\productapi.tests\\productapi.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7E44A4C2-0125-46B7-A135-835AC8E1607C}|ProductApi.Tests\\ProductApi.Tests.csproj|solutionrelative:productapi.tests\\productapi.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF6ADAD-92B1-42F5-894F-837556D0E66C}|ProductApi\\ProductApi.csproj|c:\\users\\administrator\\productapi\\productapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF6ADAD-92B1-42F5-894F-837556D0E66C}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF6ADAD-92B1-42F5-894F-837556D0E66C}|ProductApi\\ProductApi.csproj|c:\\users\\administrator\\productapi\\productapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF6ADAD-92B1-42F5-894F-837556D0E66C}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF6ADAD-92B1-42F5-894F-837556D0E66C}|ProductApi\\ProductApi.csproj|c:\\users\\administrator\\productapi\\productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF6ADAD-92B1-42F5-894F-837556D0E66C}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF6ADAD-92B1-42F5-894F-837556D0E66C}|ProductApi\\ProductApi.csproj|c:\\users\\administrator\\productapi\\productapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF6ADAD-92B1-42F5-894F-837556D0E66C}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF6ADAD-92B1-42F5-894F-837556D0E66C}|ProductApi\\ProductApi.csproj|c:\\users\\administrator\\productapi\\productapi\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF6ADAD-92B1-42F5-894F-837556D0E66C}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF6ADAD-92B1-42F5-894F-837556D0E66C}|ProductApi\\ProductApi.csproj|c:\\users\\administrator\\productapi\\productapi\\productapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DCF6ADAD-92B1-42F5-894F-837556D0E66C}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\productapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 363,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\ProductApi\\ProductApi.Tests\\ProductControllerTests.cs",
+              "RelativeDocumentMoniker": "ProductApi.Tests\\ProductControllerTests.cs",
+              "ToolTip": "C:\\Users\\Administrator\\ProductApi\\ProductApi.Tests\\ProductControllerTests.cs",
+              "RelativeToolTip": "ProductApi.Tests\\ProductControllerTests.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAADwv3IAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:19:25.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductApi.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\Administrator\\ProductApi\\ProductApi.Tests\\ProductApi.Tests.csproj",
+              "RelativeDocumentMoniker": "ProductApi.Tests\\ProductApi.Tests.csproj",
+              "ToolTip": "C:\\Users\\Administrator\\ProductApi\\ProductApi.Tests\\ProductApi.Tests.csproj",
+              "RelativeToolTip": "ProductApi.Tests\\ProductApi.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-13T09:19:00.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\ProductApi\\ProductApi\\Program.cs",
+              "RelativeDocumentMoniker": "ProductApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\ProductApi\\ProductApi\\Program.cs",
+              "RelativeToolTip": "ProductApi\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:16:19.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\ProductApi\\ProductApi\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProductApi\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\ProductApi\\ProductApi\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProductApi\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADgvwwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:15:15.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\ProductApi\\ProductApi\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "ProductApi\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\ProductApi\\ProductApi\\Services\\ProductService.cs",
+              "RelativeToolTip": "ProductApi\\Services\\ProductService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvxgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:14:37.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\ProductApi\\ProductApi\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "ProductApi\\Services\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\ProductApi\\ProductApi\\Services\\IProductService.cs",
+              "RelativeToolTip": "ProductApi\\Services\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:13:02.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductApi.csproj",
+              "DocumentMoniker": "C:\\Users\\Administrator\\ProductApi\\ProductApi\\ProductApi.csproj",
+              "RelativeDocumentMoniker": "ProductApi\\ProductApi.csproj",
+              "ToolTip": "C:\\Users\\Administrator\\ProductApi\\ProductApi\\ProductApi.csproj",
+              "RelativeToolTip": "ProductApi\\ProductApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-13T09:12:41.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\ProductApi\\ProductApi\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ProductApi\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Administrator\\ProductApi\\ProductApi\\Models\\Product.cs",
+              "RelativeToolTip": "ProductApi\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:12:12.89Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

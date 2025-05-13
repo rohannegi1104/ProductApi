@@ -1,0 +1,86 @@
+E:\Vikas Mishra Apps\ProductApi\ProductApi\bin\Debug\net6.0\appsettings.Development.json
+E:\Vikas Mishra Apps\ProductApi\ProductApi\bin\Debug\net6.0\appsettings.json
+E:\Vikas Mishra Apps\ProductApi\ProductApi\bin\Debug\net6.0\ProductApi.exe
+E:\Vikas Mishra Apps\ProductApi\ProductApi\bin\Debug\net6.0\ProductApi.deps.json
+E:\Vikas Mishra Apps\ProductApi\ProductApi\bin\Debug\net6.0\ProductApi.runtimeconfig.json
+E:\Vikas Mishra Apps\ProductApi\ProductApi\bin\Debug\net6.0\ProductApi.dll
+E:\Vikas Mishra Apps\ProductApi\ProductApi\bin\Debug\net6.0\ProductApi.pdb
+E:\Vikas Mishra Apps\ProductApi\ProductApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Vikas Mishra Apps\ProductApi\ProductApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Vikas Mishra Apps\ProductApi\ProductApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Vikas Mishra Apps\ProductApi\ProductApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Vikas Mishra Apps\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.csproj.AssemblyReference.cache
+E:\Vikas Mishra Apps\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\Vikas Mishra Apps\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.AssemblyInfoInputs.cache
+E:\Vikas Mishra Apps\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.AssemblyInfo.cs
+E:\Vikas Mishra Apps\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.csproj.CoreCompileInputs.cache
+E:\Vikas Mishra Apps\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.MvcApplicationPartsAssemblyInfo.cs
+E:\Vikas Mishra Apps\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.MvcApplicationPartsAssemblyInfo.cache
+E:\Vikas Mishra Apps\ProductApi\ProductApi\obj\Debug\net6.0\staticwebassets.build.json
+E:\Vikas Mishra Apps\ProductApi\ProductApi\obj\Debug\net6.0\staticwebassets.development.json
+E:\Vikas Mishra Apps\ProductApi\ProductApi\obj\Debug\net6.0\staticwebassets\msbuild.ProductApi.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Vikas Mishra Apps\ProductApi\ProductApi\obj\Debug\net6.0\staticwebassets\msbuild.build.ProductApi.props
+E:\Vikas Mishra Apps\ProductApi\ProductApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ProductApi.props
+E:\Vikas Mishra Apps\ProductApi\ProductApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ProductApi.props
+E:\Vikas Mishra Apps\ProductApi\ProductApi\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Vikas Mishra Apps\ProductApi\ProductApi\obj\Debug\net6.0\scopedcss\bundle\ProductApi.styles.css
+E:\Vikas Mishra Apps\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.csproj.Up2Date
+E:\Vikas Mishra Apps\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.dll
+E:\Vikas Mishra Apps\ProductApi\ProductApi\obj\Debug\net6.0\refint\ProductApi.dll
+E:\Vikas Mishra Apps\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.pdb
+E:\Vikas Mishra Apps\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.genruntimeconfig.cache
+E:\Vikas Mishra Apps\ProductApi\ProductApi\obj\Debug\net6.0\ref\ProductApi.dll
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\bin\Debug\net6.0\appsettings.json
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\bin\Debug\net6.0\ProductApi.exe
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\bin\Debug\net6.0\ProductApi.deps.json
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\bin\Debug\net6.0\ProductApi.runtimeconfig.json
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\bin\Debug\net6.0\ProductApi.dll
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\bin\Debug\net6.0\ProductApi.pdb
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\obj\Debug\net6.0\scopedcss\bundle\ProductApi.styles.css
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.csproj.Up2Date
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.dll
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\obj\Debug\net6.0\refint\ProductApi.dll
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.pdb
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\ProductApi\ProductApi\obj\Debug\net6.0\ref\ProductApi.dll
+C:\Users\Administrator\ProductApi\ProductApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Administrator\ProductApi\ProductApi\bin\Debug\net6.0\appsettings.json
+C:\Users\Administrator\ProductApi\ProductApi\bin\Debug\net6.0\ProductApi.exe
+C:\Users\Administrator\ProductApi\ProductApi\bin\Debug\net6.0\ProductApi.deps.json
+C:\Users\Administrator\ProductApi\ProductApi\bin\Debug\net6.0\ProductApi.runtimeconfig.json
+C:\Users\Administrator\ProductApi\ProductApi\bin\Debug\net6.0\ProductApi.dll
+C:\Users\Administrator\ProductApi\ProductApi\bin\Debug\net6.0\ProductApi.pdb
+C:\Users\Administrator\ProductApi\ProductApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Administrator\ProductApi\ProductApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Administrator\ProductApi\ProductApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Administrator\ProductApi\ProductApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Administrator\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.csproj.AssemblyReference.cache
+C:\Users\Administrator\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.AssemblyInfoInputs.cache
+C:\Users\Administrator\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.AssemblyInfo.cs
+C:\Users\Administrator\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Administrator\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\ProductApi\ProductApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Administrator\ProductApi\ProductApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Administrator\ProductApi\ProductApi\obj\Debug\net6.0\scopedcss\bundle\ProductApi.styles.css
+C:\Users\Administrator\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.csproj.CopyComplete
+C:\Users\Administrator\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.dll
+C:\Users\Administrator\ProductApi\ProductApi\obj\Debug\net6.0\refint\ProductApi.dll
+C:\Users\Administrator\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.pdb
+C:\Users\Administrator\ProductApi\ProductApi\obj\Debug\net6.0\ProductApi.genruntimeconfig.cache
+C:\Users\Administrator\ProductApi\ProductApi\obj\Debug\net6.0\ref\ProductApi.dll
