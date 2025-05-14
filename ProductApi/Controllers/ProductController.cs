@@ -15,22 +15,22 @@ namespace ProductApi.Controllers
             _service = service;
         }
 
-        // [HttpGet]
-        // public IActionResult GetAll() => Ok(_service.GetAll());
+        [HttpGet]
+        public IActionResult GetAll() => Ok(_service.GetAll());
 
-        // [HttpGet("{id}")]
-        // public IActionResult Get(int id)
-        // {
-        //     var product = _service.GetById(id);
-        //     return product == null ? NotFound() : Ok(product);
-        // }
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
+        {
+            var product = _service.GetById(id);
+            return product == null ? NotFound() : Ok(product);
+        }
 
-        // [HttpPost]
-        // public IActionResult Add(Product product)
-        // {
-        //     _service.Add(product);
-        //     return CreatedAtAction(nameof(Get), new { id = product.Id }, product);
-        // }
+        [HttpPost]
+        public IActionResult Add(Product product)
+        {
+            _service.Add(product);
+            return CreatedAtAction(nameof(Get), new { id = product.Id }, product);
+        }
 
         [HttpPut("{id}")]
         public IActionResult Update(int id, Product product)
