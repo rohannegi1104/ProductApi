@@ -85,6 +85,7 @@ namespace ProductApi.Tests
 
         [Fact]
         public void GetAll_AfterAdding_ReturnsOne()
+        {
         
             _controller.Add(new Product { Name = "Prod1", Price = 5 });
             var result = _controller.GetAll() as OkObjectResult;
