@@ -104,83 +104,83 @@ namespace ProductApi.Tests
 
         //Add 5 More Test Cases
 
-        // [Fact]
+        [Fact]
 
-        // public void Add_Product_WithZeroPrice_ShouldBeAccepted()
-        // {
-        //     var product = new Product { Name = "FreeItem", Price = 0 };
-        //     _controller.Add(product);
-        //     var result = _controller.Get(product.Id) as OkObjectResult;
-        //     Assert.NotNull(result);
-        //     Assert.Equal(0, ((Product)result.Value!).Price);
+        public void Add_Product_WithZeroPrice_ShouldBeAccepted()
+        {
+            var product = new Product { Name = "FreeItem", Price = 0 };
+            _controller.Add(product);
+            var result = _controller.Get(product.Id) as OkObjectResult;
+            Assert.NotNull(result);
+            Assert.Equal(0, ((Product)result.Value!).Price);
 
-        // }
+        }
  
-        // [Fact]
+        [Fact]
 
-        // public void Add_Product_WithLongName_ShouldBeAccepted()
+        public void Add_Product_WithLongName_ShouldBeAccepted()
 
-        // {
+        {
 
-        //     var longName = new string('A', 1000);
+            var longName = new string('A', 1000);
 
-        //     var product = new Product { Name = longName, Price = 10 };
+            var product = new Product { Name = longName, Price = 10 };
 
-        //     _controller.Add(product);
+            _controller.Add(product);
 
-        //     var result = _controller.Get(product.Id) as OkObjectResult;
+            var result = _controller.Get(product.Id) as OkObjectResult;
 
-        //     Assert.Equal(longName, ((Product)result?.Value!).Name);
+            Assert.Equal(longName, ((Product)result?.Value!).Name);
 
-        // }
+        }
  
-        // [Fact]
+        [Fact]
 
-        // public void GetAll_WhenEmpty_ReturnsIEnumerable()
+        public void GetAll_WhenEmpty_ReturnsIEnumerable()
 
-        // {
+        {
 
-        //     var result = _controller.GetAll() as OkObjectResult;
+            var result = _controller.GetAll() as OkObjectResult;
 
-        //     Assert.IsAssignableFrom<IEnumerable<Product>>(result?.Value);
+            Assert.IsAssignableFrom<IEnumerable<Product>>(result?.Value);
 
-        // }
+        }
  
-        // [Fact]
+        [Fact]
 
-        // public void Delete_ThenUpdate_ReturnsNoContentButNoChange()
+        public void Delete_ThenUpdate_ReturnsNoContentButNoChange()
 
-        // {
+        {
 
-        //     var product = new Product { Name = "Temp", Price = 5 };
+            var product = new Product { Name = "Temp", Price = 5 };
 
-        //     _controller.Add(product);
+            _controller.Add(product);
 
-        //     _controller.Delete(product.Id);
+            _controller.Delete(product.Id);
 
-        //     var updateResult = _controller.Update(product.Id, product);
+            var updateResult = _controller.Update(product.Id, product);
 
-        //     Assert.IsType<NoContentResult>(updateResult);
+            Assert.IsType<NoContentResult>(updateResult);
 
-        // }
+        }
  
-        // [Fact]
+        [Fact]
 
-        // public void Add_ThenGetAll_ShouldReturnCorrectProduct()
+        public void Add_ThenGetAll_ShouldReturnCorrectProduct()
 
-        // {
+        {
 
-        //     var product = new Product { Name = "Unique", Price = 11 };
+            var product = new Product { Name = "Unique", Price = 11 };
 
-        //     _controller.Add(product);
+            _controller.Add(product);
 
-        //     var result = _controller.GetAll() as OkObjectResult;
+            var result = _controller.GetAll() as OkObjectResult;
 
-        //     var list = result?.Value as IEnumerable<Product>;
+            var list = result?.Value as IEnumerable<Product>;
 
-        //     Assert.Contains(list!, p => p.Name == "Unique");
+            Assert.Contains(list!, p => p.Name == "Unique");
 
-        // }
+        }
                 //Add more test cases 
 
         [Fact]
